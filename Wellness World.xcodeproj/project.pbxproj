@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B861723C28D023E90083E1EB /* Wellness_WorldApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B861723B28D023E90083E1EB /* Wellness_WorldApp.swift */; };
+		B861723E28D023E90083E1EB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B861723D28D023E90083E1EB /* ContentView.swift */; };
+		B861724028D023F00083E1EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B861723F28D023F00083E1EB /* Assets.xcassets */; };
+		B861724328D023F00083E1EB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B861724228D023F00083E1EB /* Preview Assets.xcassets */; };
+		B861724D28D023F00083E1EB /* Wellness_WorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B861724C28D023F00083E1EB /* Wellness_WorldTests.swift */; };
+		B861725728D023F00083E1EB /* Wellness_WorldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B861725628D023F00083E1EB /* Wellness_WorldUITests.swift */; };
+		B861725928D023F00083E1EB /* Wellness_WorldUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B861725828D023F00083E1EB /* Wellness_WorldUITestsLaunchTests.swift */; };
+		B861726628D024870083E1EB /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B861726528D024870083E1EB /* SignUpView.swift */; };
+		B861726828D0249D0083E1EB /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B861726728D0249D0083E1EB /* SecondView.swift */; };
+		B861726A28D024AD0083E1EB /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B861726928D024AD0083E1EB /* ButtonView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B861724928D023F00083E1EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B861723028D023E90083E1EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B861723728D023E90083E1EB;
+			remoteInfo = "Wellness World";
+		};
+		B861725328D023F00083E1EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B861723028D023E90083E1EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B861723728D023E90083E1EB;
+			remoteInfo = "Wellness World";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B861723828D023E90083E1EB /* Wellness World.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wellness World.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B861723B28D023E90083E1EB /* Wellness_WorldApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wellness_WorldApp.swift; sourceTree = "<group>"; };
+		B861723D28D023E90083E1EB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B861723F28D023F00083E1EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B861724228D023F00083E1EB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B861724828D023F00083E1EB /* Wellness WorldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wellness WorldTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B861724C28D023F00083E1EB /* Wellness_WorldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wellness_WorldTests.swift; sourceTree = "<group>"; };
+		B861725228D023F00083E1EB /* Wellness WorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wellness WorldUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B861725628D023F00083E1EB /* Wellness_WorldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wellness_WorldUITests.swift; sourceTree = "<group>"; };
+		B861725828D023F00083E1EB /* Wellness_WorldUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wellness_WorldUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B861726528D024870083E1EB /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		B861726728D0249D0083E1EB /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		B861726928D024AD0083E1EB /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B861723528D023E90083E1EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B861724528D023F00083E1EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B861724F28D023F00083E1EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B861722F28D023E80083E1EB = {
+			isa = PBXGroup;
+			children = (
+				B861723A28D023E90083E1EB /* Wellness World */,
+				B861724B28D023F00083E1EB /* Wellness WorldTests */,
+				B861725528D023F00083E1EB /* Wellness WorldUITests */,
+				B861723928D023E90083E1EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B861723928D023E90083E1EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B861723828D023E90083E1EB /* Wellness World.app */,
+				B861724828D023F00083E1EB /* Wellness WorldTests.xctest */,
+				B861725228D023F00083E1EB /* Wellness WorldUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B861723A28D023E90083E1EB /* Wellness World */ = {
+			isa = PBXGroup;
+			children = (
+				B861723B28D023E90083E1EB /* Wellness_WorldApp.swift */,
+				B861723D28D023E90083E1EB /* ContentView.swift */,
+				B861726528D024870083E1EB /* SignUpView.swift */,
+				B861726728D0249D0083E1EB /* SecondView.swift */,
+				B861726928D024AD0083E1EB /* ButtonView.swift */,
+				B861723F28D023F00083E1EB /* Assets.xcassets */,
+				B861724128D023F00083E1EB /* Preview Content */,
+			);
+			path = "Wellness World";
+			sourceTree = "<group>";
+		};
+		B861724128D023F00083E1EB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B861724228D023F00083E1EB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B861724B28D023F00083E1EB /* Wellness WorldTests */ = {
+			isa = PBXGroup;
+			children = (
+				B861724C28D023F00083E1EB /* Wellness_WorldTests.swift */,
+			);
+			path = "Wellness WorldTests";
+			sourceTree = "<group>";
+		};
+		B861725528D023F00083E1EB /* Wellness WorldUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B861725628D023F00083E1EB /* Wellness_WorldUITests.swift */,
+				B861725828D023F00083E1EB /* Wellness_WorldUITestsLaunchTests.swift */,
+			);
+			path = "Wellness WorldUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B861723728D023E90083E1EB /* Wellness World */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B861725C28D023F00083E1EB /* Build configuration list for PBXNativeTarget "Wellness World" */;
+			buildPhases = (
+				B861723428D023E90083E1EB /* Sources */,
+				B861723528D023E90083E1EB /* Frameworks */,
+				B861723628D023E90083E1EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Wellness World";
+			productName = "Wellness World";
+			productReference = B861723828D023E90083E1EB /* Wellness World.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B861724728D023F00083E1EB /* Wellness WorldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B861725F28D023F00083E1EB /* Build configuration list for PBXNativeTarget "Wellness WorldTests" */;
+			buildPhases = (
+				B861724428D023F00083E1EB /* Sources */,
+				B861724528D023F00083E1EB /* Frameworks */,
+				B861724628D023F00083E1EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B861724A28D023F00083E1EB /* PBXTargetDependency */,
+			);
+			name = "Wellness WorldTests";
+			productName = "Wellness WorldTests";
+			productReference = B861724828D023F00083E1EB /* Wellness WorldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B861725128D023F00083E1EB /* Wellness WorldUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B861726228D023F00083E1EB /* Build configuration list for PBXNativeTarget "Wellness WorldUITests" */;
+			buildPhases = (
+				B861724E28D023F00083E1EB /* Sources */,
+				B861724F28D023F00083E1EB /* Frameworks */,
+				B861725028D023F00083E1EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B861725428D023F00083E1EB /* PBXTargetDependency */,
+			);
+			name = "Wellness WorldUITests";
+			productName = "Wellness WorldUITests";
+			productReference = B861725228D023F00083E1EB /* Wellness WorldUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B861723028D023E90083E1EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					B861723728D023E90083E1EB = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					B861724728D023F00083E1EB = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = B861723728D023E90083E1EB;
+					};
+					B861725128D023F00083E1EB = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = B861723728D023E90083E1EB;
+					};
+				};
+			};
+			buildConfigurationList = B861723328D023E90083E1EB /* Build configuration list for PBXProject "Wellness World" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B861722F28D023E80083E1EB;
+			productRefGroup = B861723928D023E90083E1EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B861723728D023E90083E1EB /* Wellness World */,
+				B861724728D023F00083E1EB /* Wellness WorldTests */,
+				B861725128D023F00083E1EB /* Wellness WorldUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B861723628D023E90083E1EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B861724328D023F00083E1EB /* Preview Assets.xcassets in Resources */,
+				B861724028D023F00083E1EB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B861724628D023F00083E1EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B861725028D023F00083E1EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B861723428D023E90083E1EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B861723E28D023E90083E1EB /* ContentView.swift in Sources */,
+				B861726628D024870083E1EB /* SignUpView.swift in Sources */,
+				B861726A28D024AD0083E1EB /* ButtonView.swift in Sources */,
+				B861726828D0249D0083E1EB /* SecondView.swift in Sources */,
+				B861723C28D023E90083E1EB /* Wellness_WorldApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B861724428D023F00083E1EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B861724D28D023F00083E1EB /* Wellness_WorldTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B861724E28D023F00083E1EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B861725928D023F00083E1EB /* Wellness_WorldUITestsLaunchTests.swift in Sources */,
+				B861725728D023F00083E1EB /* Wellness_WorldUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B861724A28D023F00083E1EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B861723728D023E90083E1EB /* Wellness World */;
+			targetProxy = B861724928D023F00083E1EB /* PBXContainerItemProxy */;
+		};
+		B861725428D023F00083E1EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B861723728D023E90083E1EB /* Wellness World */;
+			targetProxy = B861725328D023F00083E1EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B861725A28D023F00083E1EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B861725B28D023F00083E1EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B861725D28D023F00083E1EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Wellness World/Preview Content\"";
+				DEVELOPMENT_TEAM = 96H6ZYZV7M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Zoya-s-App.Wellness-World";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B861725E28D023F00083E1EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Wellness World/Preview Content\"";
+				DEVELOPMENT_TEAM = 96H6ZYZV7M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Zoya-s-App.Wellness-World";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B861726028D023F00083E1EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 96H6ZYZV7M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Zoya-s-App.Wellness-WorldTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wellness World.app/Wellness World";
+			};
+			name = Debug;
+		};
+		B861726128D023F00083E1EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 96H6ZYZV7M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Zoya-s-App.Wellness-WorldTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wellness World.app/Wellness World";
+			};
+			name = Release;
+		};
+		B861726328D023F00083E1EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 96H6ZYZV7M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Zoya-s-App.Wellness-WorldUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Wellness World";
+			};
+			name = Debug;
+		};
+		B861726428D023F00083E1EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 96H6ZYZV7M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Zoya-s-App.Wellness-WorldUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Wellness World";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B861723328D023E90083E1EB /* Build configuration list for PBXProject "Wellness World" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B861725A28D023F00083E1EB /* Debug */,
+				B861725B28D023F00083E1EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B861725C28D023F00083E1EB /* Build configuration list for PBXNativeTarget "Wellness World" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B861725D28D023F00083E1EB /* Debug */,
+				B861725E28D023F00083E1EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B861725F28D023F00083E1EB /* Build configuration list for PBXNativeTarget "Wellness WorldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B861726028D023F00083E1EB /* Debug */,
+				B861726128D023F00083E1EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B861726228D023F00083E1EB /* Build configuration list for PBXNativeTarget "Wellness WorldUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B861726328D023F00083E1EB /* Debug */,
+				B861726428D023F00083E1EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B861723028D023E90083E1EB /* Project object */;
+}
