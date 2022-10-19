@@ -12,7 +12,7 @@ struct SecondView: View {
 
     var body: some View {
 
-    VStack {
+        VStack(spacing:50) {
         Text("Hello!")
             .font(
                 .largeTitle
@@ -23,11 +23,14 @@ struct SecondView: View {
                 .largeTitle
                 .weight(.bold)
                 )
-            Text("Take a minute to reflect")
+            Text("Take a moment to reflect")
                 .font(
                     .largeTitle
                     )
-            Text("When you're ready, click the button below!")
+                .animation(.spring())
+
+              
+            Text("When you're ready, click the button below!").multilineTextAlignment(.center)
                 .font(
                     .largeTitle
                     )

@@ -7,6 +7,10 @@
 
 import SwiftUI
 import Firebase
+import FirebaseCore
+import FirebaseAuth
+import FirebaseDatabase
+import FirebaseDatabaseSwift
 
 struct ContentView: View {
     @State private var email = ""
@@ -44,17 +48,17 @@ struct ContentView: View {
                         .background(Color.black.opacity(0.1))
                         .cornerRadius(10)
                         .border(.red, width: CGFloat(wrongPassword))
-                    
+                   
                     Button("Login"){
                        authenticateUser(username: email, password: password)
                     }
-                    .foregroundColor(.white)
-                    .frame(width: 300, height: 30)
-                    .background(Color.mint)
-                    .cornerRadius(10)
-                    
-                    NavigationLink(destination: SecondView(), isActive: $showingLoginScreen) {
-                    }
+                        .foregroundColor(.white)
+                        .frame(width: 300, height: 30)
+                        .background(Color.mint)
+                        .cornerRadius(10)
+                        
+                        NavigationLink(destination: SecondView(), isActive: $showingLoginScreen) {
+                        }
                     NavigationLink(destination: SignupView()) {
                         Text("Sign Up")
                             .padding()
@@ -64,11 +68,10 @@ struct ContentView: View {
             .navigationBarHidden(true)
         }
     }
-    
     func authenticateUser(username: String, password: String) {
-        if username.lowercased() == "zoe101" {
+        if username.lowercased() == "zoekohn101@gmail.com" {
             wrongEmail = 0
-            if password.lowercased() == "abc123" {
+            if password.lowercased() == "cookiesandcream" {
                 wrongPassword = 0
                 showingLoginScreen = true
             } else {
@@ -79,6 +82,7 @@ struct ContentView: View {
         }
         
     }
+
 }
 
 struct ContentView_Previews: PreviewProvider {
@@ -86,4 +90,5 @@ struct ContentView_Previews: PreviewProvider {
        ContentView()
     }
 }
+
 
