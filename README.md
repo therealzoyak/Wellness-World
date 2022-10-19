@@ -13,7 +13,9 @@ Encourages users to self-reflect and boosts mental health in a simple manner!
 - [x] Generate mental health insights
 
 ## Benefits
-mental health resource 
+- mental health resource 
+- helps user gain self-awareness 
+- Provides mood-relevant tips
 
 #  Using Wellness World:
 
