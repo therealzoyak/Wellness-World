@@ -1,9 +1,12 @@
 #  🌎 Wellness World 🌎 
-A mood tracking app and mental health resource for all
+### A mood tracking app and mental health resource for all!
+### Building solutions using CS: Elimintating stigma from Mental Health
 
 ## App overview!
-Wellness World uses relaxing visuals and words to help users keep track of their daily mood.
-Encourages users to self-reflect and boosts mental health in a simple manner!
+#### Wellness World uses relaxing visuals and words to help users keep track of their daily mood.
+#### Encourages users to self-reflect and boosts mental health in a simple manner!
+#### Acknowledging the problem before it manifests~
+#### It is a resource for people to take control of their well being~
 
 
 ## Features:
@@ -18,17 +21,20 @@ Encourages users to self-reflect and boosts mental health in a simple manner!
 - helps user gain self-awareness 
 - Provides mood-relevant tips
 
-## Goals:
-- [ ] Globally accesible
-- [ ] Safe Place
+## Target Goals:
+- [x] Safe Place for all
+- [x] Support System
+- [ ] Personalized insight generator
+- [ ] Localization
+- [ ] Global Accessibility 
 #  Using Wellness World:
 
 ## Video Walkthrough~
 ## When you first open the app:
 ![open3](https://user-images.githubusercontent.com/63684300/196608240-bd1bdb56-bcbb-48f3-ab3b-bf67cc810555.gif)
-## You can sign up with an example email: 
+## User Sign-up: 
 ![signup](https://user-images.githubusercontent.com/63684300/196607101-d33c9078-c52a-473e-a6ed-6030312c4d04.gif)
-## Example Sign-in:
+## User Sign-in:
 ![login2](https://user-images.githubusercontent.com/63684300/196607132-fcc38783-1496-4f51-87d9-d8668f3d1610.gif)
 ## Once logged in reflect and choose a mood: 
 ![choose emotion](https://user-images.githubusercontent.com/63684300/196607229-972070db-43ef-489c-90bd-fab4b3737c74.gif)
