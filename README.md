@@ -28,7 +28,7 @@ Encourages users to self-reflect and boosts mental health in a simple manner!
 ![open3](https://user-images.githubusercontent.com/63684300/196608240-bd1bdb56-bcbb-48f3-ab3b-bf67cc810555.gif)
 ## You can sign up with an example email: 
 ![signup](https://user-images.githubusercontent.com/63684300/196607101-d33c9078-c52a-473e-a6ed-6030312c4d04.gif)
-## Let's sign in with a pre-registered fake account:
+## Example Sign-in:
 ![login2](https://user-images.githubusercontent.com/63684300/196607132-fcc38783-1496-4f51-87d9-d8668f3d1610.gif)
 ## Once logged in reflect and choose a mood: 
 ![choose emotion](https://user-images.githubusercontent.com/63684300/196607229-972070db-43ef-489c-90bd-fab4b3737c74.gif)
