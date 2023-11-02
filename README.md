@@ -1,4 +1,5 @@
 #  🌎 Wellness World 🌎 
+### Built by Zoya Khan
 ### A mood tracking app and mental health resource for all!
 ### Building solutions using CS: Elimintating stigma from Mental Health
 
@@ -22,7 +23,7 @@
 - Provides mood-relevant tips
 
 ## Target Goals:
-- [x] Safe Place for all
+- [x] Safe Place for anyone
 - [x] Support System
 - [ ] Personalized insight generator
 - [ ] Localization
@@ -49,10 +50,10 @@ Made with [LiceCap](https://www.cockos.com/licecap/).
 ![IMG_9956](https://user-images.githubusercontent.com/63684300/196345358-a7dc7832-6878-46f3-a8ab-8fbe7b6d4b2c.jpeg)
 ![IMG_9959](https://user-images.githubusercontent.com/63684300/196345360-1b018a59-eb23-47e1-a565-0682c0daedb1.jpeg)
 
-explaining and quoting code to explain certain features
+
 
 ## Building the app with XCode
-- Entire app was built using SwiftUI
+- Entire app was built using SwiftUI, Swift, and Python
 - Using XCode on MacOC
 
 ## User Data and Firebase
